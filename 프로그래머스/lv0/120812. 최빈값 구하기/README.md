@@ -67,8 +67,8 @@
 `line 5` : return 값<br>
 `line 6` : 주어진 값들을 key로 사용하는 Map <Integer,Integer> Hashmap 생성<br>
 `line 7` : for문을 이용하여 최빈값 구하기<br>
-`line 8` - map.getOrDefault(Object key, V DefaultValue)를 이용하여 찾는 key가 있으면 그 key의 value에 1을 더한 값을 count에 저장 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- key의 value값이 없거나 null이면 기본값 0에 1을 더한 값을 count에 저장<br>
+`line 8` - map.getOrDefault(Object key, V DefaultValue)를 이용하여 찾는 key가 있으면 그 key의 value에 1을 더한 값을 count에 저장<br>
+&emsp;&emsp;&emsp;&emsp;- key의 value값이 없거나 null이면 기본값 0에 1을 더한 값을 count에 저장<br>
 `line 9` ~ `line 12`: count가 maxcount보다 크다면 maxcount와 answer를 update<br>
 `line 13` ~ `line 15` : count와 maxcount가 같다면 answer에 -1을 저장<br>
 `line 16` : number와 count를 map에 넣음<br>
