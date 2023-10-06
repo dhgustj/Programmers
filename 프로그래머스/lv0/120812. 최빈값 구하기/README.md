@@ -63,5 +63,13 @@
 <hr>
 
 ### 코드 설명 (다른 사람 코드 참고했음)
-- Map <key,value> 사용<br>
-`line 7` : 
+`line 4` : 주어진 값이 몇 번 나왔는지 새는 count의 값을 update하면, update된 값을 저장하는 변수 maxcount<br>
+`line 5` : return 값<br>
+`line 6` : 주어진 값들을 key로 사용하는 Map <Integer,Integer> Hashmap 생성<br>
+`line 7` : for문을 이용하여 최빈값 구하기<br>
+`line 8` - map.getOrDefault(Object key, V DefaultValue)를 이용하여 찾는 key가 있으면 그 key의 value에 1을 더한 값을 count에 저장 <br>
+         - key의 value값이 없거나 null이면 기본값 0에 1을 더한 값을 count에 저장<br>
+`line 9` ~ `line 12`: count가 maxcount보다 크다면 maxcount와 answer를 update<br>
+`line 13` ~ `line 15` : count와 maxcount가 같다면 answer에 -1을 저장<br>
+`line 16` : number와 count를 map에 넣음<br>
+`line 18` : answer값을 return<br>
