@@ -55,6 +55,8 @@
 <li><code>numbers</code>의 원소들의 평균 값은 94.0입니다.</li>
 </ul>
 
+<hr>
+
 ### 코드 설명
 `line 4` : 정수 배열 numbers의 원소들을 더할 때 update를 위한 변수 sum 생성<br>
 `line 5` : (배열 mubers의 길이-1)까지 1씩 증가시키면서 for문 돌림<br>
