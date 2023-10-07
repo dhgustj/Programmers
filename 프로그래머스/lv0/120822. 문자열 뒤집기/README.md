@@ -60,4 +60,4 @@
 `line 4` : return할 문자열 변수 answer를 빈 문자열로 초기화<br>
 `line 5` : 문자 배열 array의 길이까지 1만큼 증가시키면서 for문 돌림<br>
 `line 6` : array[array.length-i]를 통해 문자 배열의 마지막 값부터 가져와 answer에 추가<br>
-`line 8` : answer 리
+`line 8` : answer 리턴
