@@ -62,7 +62,8 @@
 
 <hr>
 
-### 코드 설명 (다른 사람 코드 참고했음)
+### 코드 설명 
+- 다른 사람 코드 참고<br>
 `line 4` : 주어진 값이 몇 번 나왔는지 새는 count의 값을 update하면, update된 값을 저장하는 변수 maxcount<br>
 `line 5` : return 값<br>
 `line 6` : 주어진 값들을 key로 사용하는 Map <Integer,Integer> Hashmap 생성<br>
