@@ -1,18 +1,10 @@
-# [level 0] 배열의 평균값 - 120817 
+# 배열의 평균값 - 120817 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120817) 
 
 ### 성능 요약
 
 메모리: 84.6 MB, 시간: 0.05 ms
-
-### 구분
-
-코딩테스트 연습 > 코딩테스트 입문
-
-### 채점결과
-
-정확성: 100.0<br/>합계: 100.0 / 100.0
 
 ### 문제 설명
 
@@ -63,5 +55,10 @@
 <li><code>numbers</code>의 원소들의 평균 값은 94.0입니다.</li>
 </ul>
 
-
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+### 코드 설명
+`line 4` : 정수 배열 numbers의 원소들을 더할 때 update를 위한 변수 sum 생성<br>
+`line 5` : (배열 mubers의 길이-1)까지 1씩 증가시키면서 for문 돌림<br>
+`line 6` : numbers의 원소들 더함<br>
+`line 8` : 평균 값이 실수이므로 원소들의 합을 저장한 sum을 실수형으로 형 변환한 다음, 배열 길이로 나누어 평균값 구함<br>
+&emsp;&emsp;그 값을 answer에 저장<br>
+`line 9` : answer 리턴<br>
