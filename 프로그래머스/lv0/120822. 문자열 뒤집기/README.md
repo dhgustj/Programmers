@@ -1,18 +1,10 @@
-# [level 0] 문자열 뒤집기 - 120822 
+# 문자열 뒤집기 - 120822 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822) 
 
 ### 성능 요약
 
 메모리: 85.6 MB, 시간: 14.29 ms
-
-### 구분
-
-코딩테스트 연습 > 코딩테스트 입문
-
-### 채점결과
-
-정확성: 100.0<br/>합계: 100.0 / 100.0
 
 ### 문제 설명
 
@@ -61,5 +53,11 @@
 <li><code>my_string</code>이 "bread"이므로 거꾸로 뒤집은 "daerb"를 return합니다.</li>
 </ul>
 
+<hr>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+### 코드 설명
+`line 3` : 매개변수로 주어진 문자열 my_string을 .toCharArray()를 사용하여 문자 배열 array로 바꿈<br>
+`line 4` : return할 문자열 변수 answer를 빈 문자열로 초기화<br>
+`line 5` : 문자 배열 array의 길이까지 1만큼 증가시키면서 for문 돌림<br>
+`line 6` : array[array.length-i]를 통해 문자 배열의 마지막 값부터 가져와 answer에 추가<br>
+`line 8` : answer 리
