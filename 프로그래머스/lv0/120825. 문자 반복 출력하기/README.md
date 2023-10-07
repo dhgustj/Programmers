@@ -1,18 +1,10 @@
-# [level 0] 문자 반복 출력하기 - 120825 
+# 문자 반복 출력하기 - 120825 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120825) 
 
 ### 성능 요약
 
 메모리: 67 MB, 시간: 12.00 ms
-
-### 구분
-
-코딩테스트 연습 > 코딩테스트 입문
-
-### 채점결과
-
-정확성: 100.0<br/>합계: 100.0 / 100.0
 
 ### 문제 설명
 
@@ -55,5 +47,10 @@
 <li>"hello"의 각 문자를 세 번씩 반복한 "hhheeellllllooo"를 return 합니다.</li>
 </ul>
 
+<hr>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+### 코드 설명
+`line 3` : 매개변수로 주어진 문자열 my_string을 .toCharArray()를 사용하여 문자 배열 array로 바꿈<br>
+`line 4` : return할 문자열 변수 answer를 빈 문자열로 초기화<br>
+`line 5` ~ `line 7` : for문을 돌면서 배열의 각 인덱스에 해당하는 문자를 n번만큼 answer에 추가<br> 
+`line 10` : answer 리턴
